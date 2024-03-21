@@ -7,6 +7,7 @@
 
 import React from 'react';
 import type {PropsWithChildren} from 'react';
+import Icon from 'react-native-vector-icons/Ionicons';
 import {
   SafeAreaView,
   ScrollView,
@@ -83,6 +84,9 @@ function App(): React.JSX.Element {
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
+       
+          <Icon name="rocket-outline" size={30} color="#900" />
+
           <Section title="Debug">
             <DebugInstructions />
           </Section>
